@@ -1,0 +1,1 @@
+I have created a website with basic HTML and CSS. Pricing Section is done. Now give me a section that is most important and usable on most websites. Which I can do easily. And it feels like a Zen professional website.

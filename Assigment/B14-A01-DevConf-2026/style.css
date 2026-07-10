@@ -186,3 +186,72 @@ section{
 .card-one ul li::marker{
     color: #2563EB;
 }
+/* secure-section-end */
+.faq{
+    width: 80%;
+    margin: 100px auto;
+}
+
+.faq-heading{
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.faq-heading h2{
+    font-size: 48px;
+    margin: 15px 0;
+    color: #111827;
+}
+
+.faq-heading p{
+    color: #6b7280;
+    font-size: 18px;
+}
+
+.faq-box{
+    background: #fff;
+    border: 1px solid #e5e7eb;
+    border-radius: 15px;
+    padding: 25px 30px;
+    margin-bottom: 20px;
+    transition: 0.3s;
+}
+
+.faq-box:hover{
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+.question{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.question h3{
+    font-size: 22px;
+    color: #111827;
+    font-weight: 600;
+}
+
+.question i{
+    width: 40px;
+    height: 40px;
+    background: #2563eb;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+}
+
+.answer{
+    margin-top: 20px;
+}
+
+.answer p{
+    color: #6b7280;
+    line-height: 1.8;
+    font-size: 16px;
+}
+/* faq-section-end */

@@ -40,10 +40,11 @@
     color: white;
     font-size: 15px;
     cursor: pointer;
+    font-weight: bold;
 }
 .button-area:hover{
     background-color:#2563EB ;
-    transform: translateY(-8px);
+    transform: translateY(-1px);
 }
 /* Nav-area-end */
 

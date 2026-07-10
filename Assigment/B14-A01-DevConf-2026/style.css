@@ -1,3 +1,70 @@
-h2{
-    background-color: bisque;
+*{
+   margin: 0;
+   padding: 0;
 }
+.nav-area{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: antiquewhite;
+    font-size: large;
+    padding: 10px;
+}
+.navigation-area{
+    display: flex;
+    gap: 20px;
+
+}
+.navigation-area li{
+    list-style: none;
+    
+   
+}
+.navigation-area a{
+    text-decoration: none;
+    color: #888888;
+    
+}
+.button-area{
+    background-color:#2563EB ;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+/* Nav-area-end */
+
+/* heder-area-star */
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./imges/banner.jpg);
+    height:90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+
+    
+}
+.header-area-content{
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header-area-content h2{
+    font-size: 70px;
+    font-weight: 500;
+}
+.header-area-content p{
+    font-size: 20px;
+    text-align: center;
+}
+.button-coustomize{
+    margin-top: 300px;
+    padding: 15px 30px;
+}
+/* header-area-end */

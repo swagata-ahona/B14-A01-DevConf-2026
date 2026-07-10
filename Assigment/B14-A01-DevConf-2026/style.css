@@ -2,6 +2,12 @@
    margin: 0;
    padding: 0;
 }
+.comon-area{
+    max-width: 1200px;
+    margin: auto;
+}
+
+
 .nav-area{
     display: flex;
     justify-content: space-around;
@@ -68,3 +74,42 @@ header{
     padding: 15px 30px;
 }
 /* header-area-end */
+section{
+    margin-top: 30px;
+}
+.spekar-area-head{
+    text-align: center;
+    padding: 30px;
+    font-size: 40px;
+    
+}
+.spekar-area{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    
+}
+.card{
+    border: 1px solid gray;
+    border-radius: 15px;
+    overflow: hidden;  
+}
+.card img{
+    width: 100%;
+    height: auto;    
+}
+.card-content{
+    margin-left: 20px;
+    padding: 10px;
+}
+.card-content .small-content{
+    color: #2563EB;
+    font-size: 12px;
+    font-weight: 400px;
+}
+.card-content .secend-card-content{
+    color: #888888;
+    font-size: 14px;
+    font-weight: 500;
+}
+/* spekar-area-end */

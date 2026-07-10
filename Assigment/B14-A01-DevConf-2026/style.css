@@ -1,6 +1,7 @@
 *{
    margin: 0;
    padding: 0;
+  font-family: "Open Sans", sans-serif;
 }
 .comon-area{
     max-width: 1200px;
@@ -39,6 +40,10 @@
     color: white;
     font-size: 15px;
     cursor: pointer;
+}
+.button-area:hover{
+    background-color:#2563EB ;
+    transform: translateY(-8px);
 }
 /* Nav-area-end */
 
@@ -158,6 +163,7 @@ section{
     flex-direction: column;
     gap: 15px;
 }
+
 .active-card p{
     color: #93C5FD;
     font-size: 13px;
@@ -172,6 +178,16 @@ section{
 .active-button{
     width: 100%;
     margin: 20px auto;
+
+}
+.active-button:hover{
+    background-color:#2563EB ;
+    transform: translateY(-8px);
+    
+}
+.card-button:hover{
+    background-color: #FFFFFF;
+    transform: translateY(-8px);
 }
 .card-button{
     background-color: #FFFFFF;
@@ -255,3 +271,91 @@ section{
     font-size: 16px;
 }
 /* faq-section-end */
+.footer{
+    background: linear-gradient(135deg,#0b1120,#111827);
+    padding: 70px 10%;
+    color: #fff;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.footer-left h2{
+    font-size: 38px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.footer-left h2 i{
+    color: #7c5cff;
+    margin-right: 10px;
+}
+
+.footer-left h2 span{
+    color: #7c5cff;
+}
+
+.footer-left p{
+    max-width: 420px;
+    color: #cbd5e1;
+    line-height: 1.8;
+    font-size: 16px;
+}
+
+.footer-right{
+    text-align: center;
+}
+
+.footer-right h3{
+    font-size: 28px;
+    margin-bottom: 25px;
+}
+
+.social-icons{
+    display: flex;
+    gap: 18px;
+}
+
+.social-icons a{
+    width: 60px;
+    height: 60px;
+    border: 1px solid rgba(255,255,255,.15);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-decoration: none;
+    font-size: 22px;
+    transition: .35s ease;
+}
+
+.social-icons a:hover{
+    background: #7c5cff;
+    border-color: #7c5cff;
+    transform: translateY(-8px);
+}
+
+.footer hr{
+    margin: 60px 0 30px;
+    border: none;
+    height: 1px;
+    background: rgba(255,255,255,.15);
+}
+.copyright{
+    text-align: center;
+}
+.copyright p{
+    color: #cbd5e1;
+    font-size: 16px;
+}
+
+.copyright span{
+    color: #7c5cff;
+    font-weight: 600;
+}

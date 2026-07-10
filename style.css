@@ -74,6 +74,7 @@ header{
 .header-area-content p{
     font-size: 20px;
     text-align: center;
+    font-size: small;
 }
 .button-coustomize{
     margin-top: 300px;
@@ -86,7 +87,8 @@ section{
 .spekar-area-head{
     text-align: center;
     padding: 30px;
-    font-size: 40px;
+    font-size: 48px;
+    color: #0D1B2A;
     
 }
 .spekar-area{
@@ -146,7 +148,7 @@ section{
     text-align: left;
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 20px;
 }
 .card-one p{
     color: #888888;

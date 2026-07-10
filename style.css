@@ -183,12 +183,12 @@ section{
 }
 .active-button:hover{
     background-color:#2563EB ;
-    transform: translateY(-8px);
+    transform: translateY(-1px);
     
 }
 .card-button:hover{
     background-color: #FFFFFF;
-    transform: translateY(-8px);
+    transform: translateY(-1px);
 }
 .card-button{
     background-color: #FFFFFF;

@@ -96,7 +96,7 @@ section{
     
 }
 .card{
-    border: 1px solid gray;
+    border: 1px solid rgb(232, 222, 222);
     border-radius: 15px;
     overflow: hidden;  
 }
@@ -141,7 +141,7 @@ section{
 .secure-content .card-one{
     background-color: #E5E7EB;
     padding: 40px 30px;
-    border: 1px solid rgb(24, 22, 22);
+    border: 1px solid rgb(185, 177, 177);
     border-radius: 15px;
     text-align: left;
     display: flex;
@@ -156,7 +156,7 @@ section{
 .secure-content .active-card{
     background-color: #0D1B2A;
     padding: 40px 30px;
-    border: 1px solid rgb(24, 22, 22);
+    border: 1px solid rgb(185, 177, 177);
     border-radius: 15px;
     text-align: left;
     color: #E5E7EB;

@@ -4,7 +4,7 @@
 }
 .comon-area{
     max-width: 1200px;
-    margin: auto;
+    margin: 40px auto;
 }
 
 
@@ -113,3 +113,76 @@ section{
     font-weight: 500;
 }
 /* spekar-area-end */
+.secure-heading{
+    text-align: center;
+    margin: 30px;
+}
+.secure-heading h2{
+    font-size: 60px;
+    color: #0D1B2A;
+}
+.secure-heading{
+    color: #575757;
+    font-size: 16px;
+}
+.secure-content{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+   
+
+}
+.secure-content .card-one{
+    background-color: #E5E7EB;
+    padding: 40px 30px;
+    border: 1px solid rgb(24, 22, 22);
+    border-radius: 15px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.card-one p{
+    color: #888888;
+    font-size: 13px;
+    
+}
+.secure-content .active-card{
+    background-color: #0D1B2A;
+    padding: 40px 30px;
+    border: 1px solid rgb(24, 22, 22);
+    border-radius: 15px;
+    text-align: left;
+    color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.active-card p{
+    color: #93C5FD;
+    font-size: 13px;
+}
+.active-card .card-text{
+    color: #FFFFFF;
+    font-size: 13px;
+}
+.active-card ul li::marker{
+    color: #2563EB;
+}
+.active-button{
+    width: 100%;
+    margin: 20px auto;
+}
+.card-button{
+    background-color: #FFFFFF;
+    border: 1px solid #2563EB;
+    border-radius: 10px;
+    width: 100%;
+    padding: 15px;
+    cursor: pointer;
+    color: 2563EB;
+    margin: 20px auto;
+}
+.card-one ul li::marker{
+    color: #2563EB;
+}
